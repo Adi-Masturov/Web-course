@@ -1,0 +1,20 @@
+.body {
+
+}
+.headline {
+    color: darkcyan;
+    font-size: large;
+}
+ul {
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: blue;
+}
+.th{
+    text-align: center;
+    font-weight: bold;
+}
+h2 {
+    color: darkcyan;
+    font-size: medium;
+}
