@@ -1,20 +1,88 @@
 .body {
-
-}
-.headline {
-    color: darkcyan;
-    font-size: large;
-}
-ul {
     font-family: 'Roboto';
     font-size: 16px;
+    font-weight: normal;  
+}
+
+header h1 {
+    font-family:"Roboto";
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: whitesmoke;
+    position: absolute;
+    top: -30px;
+    left: 10px;
+    width: 100%;
+    -webkit-text-stroke: 2px gray;
+    text-shadow: 2px 2px gray;
+}
+
+header {
+    width: auto;
+    width:90%;
+    position:relative;
+    max-width: 1170px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 10px 155px;
+    background-color:rgb(233, 218, 220);
+    background: no repeat center center fixed;
+}
+
+    ul {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: normal;
     color: blue;
 }
+
 .th{
     text-align: center;
     font-weight: bold;
 }
+
 h2 {
-    color: darkcyan;
-    font-size: medium;
+    font-family:"Roboto";
+    text-align: left;
+    letter-spacing: 2px;
+    color: rgb(209, 179, 184);
+    -webkit-text-stroke: 1px gray;
+    text-shadow: 2px 2px gray;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.pic {
+    float: right;
+    margin: 10px;
+    padding: 5px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color:rgb(233, 218, 220) ;
+    margin: 10px;
+    padding: 5px;
+    justify-content: center;
+}    
+
+.flex-container div {
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+    background-color:rgb(209, 179, 184) ;
+}
+
+footer {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    background-color:rgb(233, 218, 220) ;
+    padding: 10px;
+    margin: 10px;
 }
