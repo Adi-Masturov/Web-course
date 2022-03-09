@@ -77,6 +77,94 @@ h2 {
     background-color:rgb(209, 179, 184) ;
 }
 
+.grid-images {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    box-sizing: border-box;
+    grid-gap: 10px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:rgb(91, 148, 88);
+}
+
+.grid-images img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    background-color:rgb(65, 133, 62);
+}
+
+img[src*='my sister\'s wedding.jpg'] {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 9;
+    background-color:rgb(65, 133, 62);
+
+}
+
+img[src*='my parents.jpg'] {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color:rgb(65, 133, 62);
+
+}
+
+img[src*='my grandmother.jpg'] {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color:rgb(65, 133, 62);
+
+}
+
+img[src*='My twins.jpg'] {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color:rgb(65, 133, 62);
+
+}
+
+img[src*='My older sister\'s family-1'] {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color:rgb(65, 133, 62);
+
+}
+
+img[src*='My older sister\'s family-2'] {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color:rgb(65, 133, 62);
+
+}
+
+#hfam {
+    font-family:"Roboto";
+    text-align: center;
+    letter-spacing: 2px;
+    top: 10px;
+    color: #7aac61;
+    -webkit-text-stroke: 2px rgb(44, 87, 23);
+    text-shadow: 4px 4px (44, 87, 23);
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 10px;
+}
+
 footer {
     font-family: 'Roboto';
     font-size: 16px;
